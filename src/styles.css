@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn {
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 20px;
+  padding: 4px 12px;
+  color: white;
+  background-color: green;
+}
+
+.g-actions {
+  margin-bottom: 40px;
+}
+
+.g-actions .btn {
+  background-color: red;
+  border: : none;
+  box-shadow: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
