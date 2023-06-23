@@ -25,15 +25,6 @@ const Timer = ({ id, currentState }) => {
 
   useEffect(() => {
     if (currentState === 1) {
-      startTimer();
-    }
-    return () => {
-      clearInterval(Timer_ID?.current);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (currentState === 1) {
       onPlay();
     }
     if (currentState === 2) {
