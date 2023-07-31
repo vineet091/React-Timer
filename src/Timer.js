@@ -6,6 +6,9 @@ const Timer = ({ id, currentState }) => {
   const [timer, setTimer] = useState(60);
 
   const startTimer = () => {
+    if (timer === 0) {
+      setTimer(60);
+    }
     Timer_ID.current = setInterval(
       (callback1) => {
         callback1((time) => {
